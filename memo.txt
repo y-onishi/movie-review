@@ -1,9 +1,12 @@
 ★　pythonanywhere「onishiyutaro.pythonanywhere.com」　★
 
-・スクレイピングし、
+（herokuにscikit-learnを入れると、無料枠ギリギリになってしまうらしいので、
+　pythonanywhereを使用）
+
+
+・filmarksよりレビューをスクレイピングし、データを取得
 　スクレイピングには「scraping.py」を使用
 
-・機械学習は「kikai_test.ipynb」などでローカルにて試行錯誤中
+・
 
-・clf.pklには、ローカルにて学習した結果を記録
-　テスト用に作っただけのものなので、ほとんど機能しない
+・clf.pklにはローカルにて学習した結果を記録
