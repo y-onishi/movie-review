@@ -3,6 +3,8 @@
 入力した感想が「good」か「bad」か判定する
 
 ## Description
+ロジスティック回帰で学習させたプログラムを使い、レビュー文が「good」「bad」か判定する。  
+  
 [filmarks](https://filmarks.com/)より、映画のレビュー文と点数のデータを収集。  
 janomeで形態素解析。  
 scikit-learnのロジスティック回帰で学習。  
