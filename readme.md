@@ -26,7 +26,7 @@ scikit-learnのロジスティック回帰で学習。
 
 ## Licence
 Movie Review Classifier is licensed under the [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE) license.  
-Copyright (c) 2018 Yutaro Onishi
+Copyright (c) 2018 y-onishi
 
 ## Author
 [y-onishi](https://github.com/y-onishi)
