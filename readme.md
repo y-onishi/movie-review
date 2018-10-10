@@ -23,7 +23,7 @@ scikit-learnのロジスティック回帰で学習。
 * pythonanywhere当該ソースコードのページ　[Link](http://onishiyutaro.pythonanywhere.com/)
 
 ## Licence
-Movie Review Classifier is licensed under the [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE) license.
+Movie Review Classifier is licensed under the [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE) license.  
 Copyright (c) 2018 Yutaro Onishi
 
 ## Author
