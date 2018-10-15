@@ -6,9 +6,9 @@
 ロジスティック回帰で学習させたプログラムを使い、レビュー文が「good」「bad」か判定する。  
   
 [filmarks](https://filmarks.com/)より、映画のレビュー文と点数のデータを収集。  
-janomeで形態素解析。  
-scikit-learnのロジスティック回帰で学習。  
-学習結果をpythonanywhereにデプロイ。
+mecabで形態素解析。 
+scikit-learnのロジスティック回帰で学習。(lr_20181013.ipynb)  
+学習結果をpythonanywhereにデプロイ。(pythonanywhereでは、形態素解析にjanomeを使用)  
 
 ## Demo
 ![result](https://github.com/y-onishi/movie-review/blob/master/media/demo.gif)

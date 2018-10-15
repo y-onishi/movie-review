@@ -11,11 +11,11 @@ def tokenizer(sentence):
 #tokenizerは読み込みがうまくいかなかったので、再度設定
 url = '/home/onishiyutaro/movieclassifier'
 pipe_lr \
-    = pickle.load(open(os.path.join(url, 'clf.pkl'), 'rb'))
+    = pickle.load(open(os.path.join(url, 'pipe_lr3.pkl'), 'rb'))
 pipe_lr.set_params(count__tokenizer=tokenizer)
 
 def classify(document):
-    label = {0:'悪い', 1:'良い'}
+    label = {0:'bad', 1:'good'}
     document_array = []
     document_array.append(document)
     predict = pipe_lr.predict(document_array)
